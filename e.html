@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>案E: THE LAKOTA HOUSE参考</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Cormorant+Garamond:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#111;
+    --cream:#F7F4EE;
+    --sub:#8a8478;
+    --accent:#4CAF6D;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Noto Sans JP',sans-serif;background:var(--cream);color:var(--ink);}
+  .label{position:fixed;top:0;left:0;right:0;background:var(--ink);color:#fff;text-align:center;padding:8px;font-size:13px;z-index:99;letter-spacing:.05em;}
+  .ref{background:#eee;color:#555;text-align:center;padding:7px;font-size:12px;margin-top:34px;}
+
+  /* hero: full-bleed photo like THE LAKOTA HOUSE */
+  .hero{position:relative;height:100vh;min-height:640px;color:#fff;
+    background:linear-gradient(180deg,rgba(20,14,8,.15),rgba(15,10,6,.55)),
+      radial-gradient(circle at 30% 20%,#6b4a2f,transparent 60%),
+      linear-gradient(150deg,#8a6239 0%,#4a3018 45%,#1c130b 100%);
+    background-blend-mode:multiply,normal,normal;
+    display:flex;flex-direction:column;justify-content:space-between;}
+  .hero nav{display:flex;align-items:center;justify-content:space-between;padding:28px 5%;}
+  .hero nav .side{display:flex;gap:26px;font-size:12px;letter-spacing:.06em;}
+  .hero nav a{color:#fff;text-decoration:none;opacity:.9;}
+  .hero .logotype{display:flex;flex-direction:column;align-items:center;gap:6px;}
+  .hero .logotype img{height:30px;background:#fff;border-radius:20px;padding:6px 14px;}
+  .hero .logotype span{font-family:'Cormorant Garamond',serif;font-size:11px;letter-spacing:.35em;text-transform:uppercase;color:#f2ead9;}
+  .hero .caption{padding:0 5% 60px;display:flex;justify-content:space-between;align-items:flex-end;}
+  .hero .caption .slides{font-size:12px;letter-spacing:.1em;color:#e7dfcf;display:flex;gap:14px;margin-bottom:14px;}
+  .hero .caption .slides b{color:#fff;}
+  .hero .caption h1{font-family:'Cormorant Garamond',serif;font-size:44px;font-weight:600;line-height:1.35;max-width:640px;}
+  .hero .caption .more{font-size:12px;letter-spacing:.05em;color:#fff;border-bottom:1px solid rgba(255,255,255,.6);padding-bottom:4px;white-space:nowrap;}
+
+  section{padding:90px 5%;}
+  .intro{max-width:640px;margin:0 auto;text-align:center;}
+  .intro .eyebrow{color:var(--accent);letter-spacing:.2em;font-size:12px;margin-bottom:18px;text-transform:uppercase;}
+  .intro p{font-size:15px;color:#4a463f;line-height:2;}
+
+  h2.section-title{font-family:'Cormorant Garamond',serif;font-size:28px;text-align:center;margin-bottom:44px;letter-spacing:.03em;}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;background:var(--ink);}
+  .card{aspect-ratio:3/4;display:flex;align-items:flex-end;padding:20px;font-family:'Cormorant Garamond',serif;font-size:18px;color:#f5efe4;
+    background:linear-gradient(160deg,#6b4a2f,#241a10);}
+  .card:nth-child(2){background:linear-gradient(160deg,#3a3a3a,#111);}
+  .card:nth-child(3){background:linear-gradient(160deg,#7a5c3e,#2b1e11);}
+  .card:nth-child(4){background:linear-gradient(160deg,#5a5044,#181410);}
+
+  .blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:36px;max-width:1100px;margin:0 auto;}
+  .blog-card .ph{aspect-ratio:4/5;margin-bottom:18px;background:linear-gradient(160deg,#e4d9c4,#a98c63);}
+  .blog-card .date{font-size:11px;color:var(--sub);letter-spacing:.1em;}
+  .blog-card .t{font-family:'Cormorant Garamond',serif;font-size:20px;margin-top:8px;}
+
+  footer{background:var(--ink);color:#cfc9bd;padding:50px 5%;text-align:center;font-size:12px;letter-spacing:.05em;}
+</style>
+</head>
+<body>
+<div class="label">案E: THE LAKOTA HOUSE 参考（革の質感フルブリード写真＋中央ロゴ＋ミニマルUI）</div>
+<div class="ref">参考: THE LAKOTA HOUSE (lakotahouse.com) の構成を、グリーンポイント様の事業内容に合わせて再構成</div>
+
+<div class="hero">
+  <nav>
+    <div class="side"><a href="#">取扱品目</a><a href="#">会社概要</a><a href="#">ブログ</a></div>
+    <div class="logotype">
+      <img src="assets/current-logo.jpg" alt="green point">
+      <span>Italian Trade Mart</span>
+    </div>
+    <div class="side"><a href="#">JP/EN/中文</a><a href="#">お問い合わせ</a></div>
+  </nav>
+  <div class="caption">
+    <div>
+      <div class="slides"><b>01</b> 02 03 04</div>
+      <h1>イタリアの手仕事を、<br>そのまま日本へ。</h1>
+    </div>
+    <a class="more" href="#">View More</a>
+  </div>
+</div>
+
+<section class="intro">
+  <div class="eyebrow">Since 20XX</div>
+  <p>革製品・食品・ワインなど、イタリアで作り手が手がけた確かな品を直輸入。小売店様・代理店様に信頼できる仕入れ先として、上質な商品と丁寧な取引をお届けします。</p>
+</section>
+
+<section>
+  <h2 class="section-title">Signature Brands</h2>
+  <div class="grid">
+    <div class="card">Pineider</div>
+    <div class="card">Pratesi</div>
+    <div class="card">Dolfi</div>
+    <div class="card">Chiarugi</div>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">Blog / Journal</h2>
+  <div class="blog-grid">
+    <div class="blog-card"><div class="ph"></div><div class="date">2026.09.01</div><div class="t">秋冬コレクション入荷のお知らせ</div></div>
+    <div class="blog-card"><div class="ph"></div><div class="date">2026.08.20</div><div class="t">イタリア出張レポート</div></div>
+    <div class="blog-card"><div class="ph"></div><div class="date">2026.08.05</div><div class="t">代理店様の声</div></div>
+  </div>
+</section>
+
+<footer>© Green Point Co., Ltd. — Italian Trade Mart</footer>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>案F: STORIE D'ITALIA参考（グリーン×ワイン）</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --sage:#DCE3D2;
+    --sage-deep:#8FA37E;
+    --ink:#2C3524;
+    --sub:#6b7563;
+    --gold:#B9975B;
+    --cream:#FBF9F4;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Noto Sans JP',sans-serif;background:var(--cream);color:var(--ink);}
+  .label{position:fixed;top:0;left:0;right:0;background:var(--ink);color:#fff;text-align:center;padding:8px;font-size:13px;z-index:99;letter-spacing:.05em;}
+  .ref{background:#eee;color:#555;text-align:center;padding:7px;font-size:12px;margin-top:34px;}
+
+  header{display:flex;align-items:center;justify-content:space-between;padding:26px 5%;background:var(--cream);}
+  header img{height:34px;}
+  nav{display:flex;gap:28px;font-size:13px;}
+  nav a{color:var(--ink);text-decoration:none;}
+  .lang{font-size:12px;color:var(--sub);}
+
+  /* hero: sage green geometric block + photo card, like STORIE D'ITALIA */
+  .hero{position:relative;padding:70px 5% 100px;}
+  .hero .sage-block{position:absolute;top:40px;right:5%;width:38%;height:70%;background:var(--sage);z-index:0;}
+  .hero-inner{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;}
+  .hero-text .eyebrow{font-family:'Cormorant Garamond',serif;font-style:italic;color:var(--gold);font-size:16px;letter-spacing:.1em;margin-bottom:18px;}
+  .hero-text h1{font-size:38px;font-weight:500;line-height:1.6;margin-bottom:24px;}
+  .hero-text p{font-size:14px;color:var(--sub);line-height:1.9;max-width:440px;margin-bottom:32px;}
+  .btn{display:inline-block;background:var(--ink);color:#fff;padding:15px 34px;font-size:13px;letter-spacing:.05em;text-decoration:none;}
+  .hero-photo{aspect-ratio:4/5;background:
+      radial-gradient(circle at 30% 30%, #9db77e 0%, #5f7a45 40%, #33461f 100%);
+    box-shadow:24px 24px 0 -8px var(--sage-deep);
+  }
+
+  section{padding:80px 5%;}
+  h2.section-title{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:30px;margin-bottom:14px;}
+  .section-title.center{text-align:center;}
+  .section-sub{color:var(--sub);font-size:13px;margin-bottom:44px;}
+
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;}
+  .card{background:#fff;border-radius:4px;overflow:hidden;box-shadow:0 10px 24px rgba(44,53,36,.08);}
+  .card .ph{aspect-ratio:1/1;}
+  .card:nth-child(1) .ph{background:linear-gradient(150deg,#8fa37e,#33461f);}
+  .card:nth-child(2) .ph{background:linear-gradient(150deg,#c9a24b,#5c4522);}
+  .card:nth-child(3) .ph{background:linear-gradient(150deg,#6b7f52,#26301a);}
+  .card:nth-child(4) .ph{background:linear-gradient(150deg,#a9b78e,#4a5c34);}
+  .card .meta{padding:16px 18px 20px;}
+  .card .meta .n{font-family:'Cormorant Garamond',serif;font-size:18px;}
+
+  .wine-band{background:var(--sage);padding:90px 5%;display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center;}
+  .wine-band .ph{aspect-ratio:16/11;background:linear-gradient(150deg,#5c4522,#2b1f11);}
+  .wine-band .eyebrow{font-family:'Cormorant Garamond',serif;font-style:italic;color:var(--gold);font-size:15px;margin-bottom:14px;}
+  .wine-band h3{font-size:26px;font-weight:500;line-height:1.6;margin-bottom:18px;}
+  .wine-band p{font-size:14px;color:#445039;line-height:1.9;}
+
+  .blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;}
+  .blog-card .ph{aspect-ratio:16/10;margin-bottom:16px;background:linear-gradient(150deg,#8fa37e,#3c4d2a);border-radius:4px;}
+  .blog-card .date{font-size:11px;color:var(--sub);letter-spacing:.05em;}
+  .blog-card .t{font-family:'Cormorant Garamond',serif;font-size:19px;margin-top:8px;}
+
+  footer{padding:44px 5%;font-size:12px;color:var(--sub);text-align:center;border-top:1px solid #e3ddcf;}
+</style>
+</head>
+<body>
+<div class="label">案F: STORIE D'ITALIA 参考（セージグリーン×ゴールド、オリーブ/ワインのイタリア食文化感）</div>
+<div class="ref">参考: STORIE D'ITALIA (storieditalia.com/producers/derobertis) の配色・構成を、現行サイトのグリーンブランドを活かして再構成</div>
+
+<header>
+  <img src="assets/current-logo.jpg" alt="green point">
+  <nav>
+    <a href="#">ホーム</a><a href="#">会社概要</a><a href="#">取扱品目</a><a href="#">ブログ</a><a href="#">代理店募集</a><a href="#">お問い合わせ</a>
+  </nav>
+  <div class="lang">JP / EN / 中文</div>
+</header>
+
+<div class="hero">
+  <div class="sage-block"></div>
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="eyebrow">Italian Trade Mart</div>
+      <h1>イタリアの恵みと手仕事を、<br>丁寧に日本へ。</h1>
+      <p>革製品、ワイン、食品まで。イタリア各地の作り手と直接つながり、確かな品質のものだけを厳選して直輸入・卸販売しています。</p>
+      <a class="btn" href="#">取扱品目を見る</a>
+    </div>
+    <div class="hero-photo"></div>
+  </div>
+</div>
+
+<section>
+  <h2 class="section-title center">Signature Brands</h2>
+  <div class="section-sub" style="text-align:center;">当社取り扱いブランド一覧</div>
+  <div class="grid">
+    <div class="card"><div class="ph"></div><div class="meta"><div class="n">Pineider</div></div></div>
+    <div class="card"><div class="ph"></div><div class="meta"><div class="n">Pratesi</div></div></div>
+    <div class="card"><div class="ph"></div><div class="meta"><div class="n">Dolfi</div></div></div>
+    <div class="card"><div class="ph"></div><div class="meta"><div class="n">Chiarugi</div></div></div>
+  </div>
+</section>
+
+<div class="wine-band">
+  <div class="ph"></div>
+  <div>
+    <div class="eyebrow">Wine &amp; Gastronomy</div>
+    <h3>イタリアワイン・食品も、<br>専門の目利きで。</h3>
+    <p>各地のワイナリーや生産者と直接取引し、味わいと物語のあるワイン・食品をセレクト。飲食店様・小売店様の仕入れに、確かな品質をお届けします。</p>
+  </div>
+</div>
+
+<section>
+  <h2 class="section-title center">Blog / Journal</h2>
+  <div class="section-sub" style="text-align:center;">産地からのレポートや商品の裏話をお届け</div>
+  <div class="blog-grid">
+    <div class="blog-card"><div class="ph"></div><div class="date">2026.09.01</div><div class="t">秋冬コレクション入荷のお知らせ</div></div>
+    <div class="blog-card"><div class="ph"></div><div class="date">2026.08.20</div><div class="t">イタリア出張レポート</div></div>
+    <div class="blog-card"><div class="ph"></div><div class="date">2026.08.05</div><div class="t">代理店様の声</div></div>
+  </div>
+</section>
+
+<footer>© Green Point Co., Ltd. — Italian Trade Mart</footer>
+</body>
+</html>

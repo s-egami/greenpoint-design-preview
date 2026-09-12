@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>グリーンポイント様 サイトリニューアル デザイン案</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Cormorant+Garamond:wght@600&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Noto Sans JP',sans-serif;background:#FAF8F3;color:#2C3524;padding:60px 6%;}
+  h1{font-size:24px;margin-bottom:8px;}
+  .sub{color:#6b7563;font-size:14px;margin-bottom:48px;}
+  .cards{display:grid;grid-template-columns:1fr 1fr;gap:28px;max-width:1000px;}
+  a.card{display:block;text-decoration:none;color:inherit;background:#fff;border:1px solid #e6e0d2;border-radius:6px;overflow:hidden;transition:box-shadow .2s;}
+  a.card:hover{box-shadow:0 12px 28px rgba(44,53,36,.12);}
+  .thumb{height:220px;}
+  .thumb.e{background:linear-gradient(150deg,#6b4a2f,#1c130b);}
+  .thumb.f{background:linear-gradient(150deg,#8fa37e,#33461f);}
+  .meta{padding:22px 24px;}
+  .meta .tag{font-family:'Cormorant Garamond',serif;color:#B9975B;font-size:14px;margin-bottom:6px;}
+  .meta h2{font-size:18px;margin-bottom:8px;}
+  .meta p{font-size:13px;color:#6b7563;line-height:1.7;}
+  footer{margin-top:48px;font-size:12px;color:#999;}
+  @media (max-width:640px){.cards{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<h1>サイトリニューアル デザイン案</h1>
+<div class="sub">グリーンポイント株式会社 様 — ご確認用プレビュー（社内検討用の試作案です）</div>
+<div class="cards">
+  <a class="card" href="e.html">
+    <div class="thumb e"></div>
+    <div class="meta">
+      <div class="tag">Concept E</div>
+      <h2>革の質感を活かした重厚デザイン</h2>
+      <p>革製品のクローズアップ写真を全面に使い、落ち着いた雰囲気でブランドの信頼感を伝える案です。</p>
+    </div>
+  </a>
+  <a class="card" href="f.html">
+    <div class="thumb f"></div>
+    <div class="meta">
+      <div class="tag">Concept F</div>
+      <h2>グリーン×ワインの上品なデザイン</h2>
+      <p>現行サイトのグリーンを活かしつつ、ワイン・食品も含めたイタリアの上質さを表現する案です。</p>
+    </div>
+  </a>
+</div>
+<footer>※ 画像はダミーです。実際の制作では商品・現場の写真を使用します。</footer>
+</body>
+</html>
