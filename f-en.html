@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>案F: STORIE D'ITALIA参考（グリーン×ワイン）</title>
+<title>Concept F: Green x Wine (EN)</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Cormorant+Garamond:wght@500;600;700&family=Baloo+2:wght@600;700&display=swap" rel="stylesheet">
 <style>
@@ -23,7 +23,6 @@
   .ref{background:#eee;color:#555;text-align:center;padding:7px 16px;font-size:12px;margin-top:34px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
   img{max-width:100%;display:block;}
 
-  /* ---- logo (live text, no longer a flattened image) ---- */
   .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit;}
   .logo .mark{width:30px;height:30px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#7bc48f,var(--green) 60%,#3a8a58);position:relative;flex:none;}
   .logo .mark::after{content:"";position:absolute;left:50%;top:50%;width:13px;height:13px;background:#eafff0;border-radius:0 50% 50% 50%;transform:translate(-50%,-55%) rotate(-45deg);}
@@ -37,7 +36,6 @@
   .lang a{color:var(--sub);text-decoration:none;}
   .lang a.active{color:var(--ink);font-weight:700;text-decoration:underline;}
 
-  /* mobile nav toggle (no JS, checkbox hack) */
   .nav-toggle{display:none;}
   .nav-toggle-label{display:none;cursor:pointer;padding:8px 6px;flex:none;}
   .nav-toggle-label span,.nav-toggle-label span::before,.nav-toggle-label span::after{
@@ -46,13 +44,12 @@
   .nav-toggle-label span::before{position:absolute;top:-7px;}
   .nav-toggle-label span::after{position:absolute;top:7px;}
 
-  /* hero: sage green geometric block + photo card, like STORIE D'ITALIA */
   .hero{position:relative;padding:70px 5% 100px;overflow:hidden;}
   .hero .sage-block{position:absolute;top:40px;right:5%;width:38%;height:70%;background:var(--sage);z-index:0;}
   .hero-inner{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;}
   .hero-inner > *{min-width:0;}
   .hero-text .eyebrow{font-family:'Cormorant Garamond',serif;font-style:italic;color:var(--gold);font-size:16px;letter-spacing:.1em;margin-bottom:18px;}
-  .hero-text h1{font-size:38px;font-weight:500;line-height:1.6;margin-bottom:24px;}
+  .hero-text h1{font-size:36px;font-weight:500;line-height:1.4;margin-bottom:24px;}
   .hero-text p{font-size:14px;color:var(--sub);line-height:1.9;max-width:440px;margin-bottom:32px;overflow-wrap:break-word;}
   .btn{display:inline-block;background:var(--ink);color:#fff;padding:15px 34px;font-size:13px;letter-spacing:.05em;text-decoration:none;}
   .hero-photo{aspect-ratio:4/5;background:
@@ -79,7 +76,7 @@
   .wine-band > *{min-width:0;}
   .wine-band .ph{aspect-ratio:16/11;background:linear-gradient(150deg,#5c4522,#2b1f11);}
   .wine-band .eyebrow{font-family:'Cormorant Garamond',serif;font-style:italic;color:var(--gold);font-size:15px;margin-bottom:14px;}
-  .wine-band h3{font-size:26px;font-weight:500;line-height:1.6;margin-bottom:18px;}
+  .wine-band h3{font-size:26px;font-weight:500;line-height:1.5;margin-bottom:18px;}
   .wine-band p{font-size:14px;color:#445039;line-height:1.9;}
 
   .blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;}
@@ -89,7 +86,6 @@
 
   footer{padding:44px 5%;font-size:12px;color:var(--sub);text-align:center;border-top:1px solid #e3ddcf;}
 
-  /* ---- responsive ---- */
   @media (max-width:900px){
     .hero-inner{grid-template-columns:1fr;}
     .hero .sage-block{width:70%;height:50%;top:10px;right:0;}
@@ -117,7 +113,7 @@
     .lang-mobile a{color:var(--ink);text-decoration:none;}
     .lang-mobile a.active{font-weight:700;text-decoration:underline;}
     .hero{padding:50px 6% 70px;}
-    .hero-text h1{font-size:28px;}
+    .hero-text h1{font-size:26px;}
     .hero .sage-block{display:none;}
     section{padding:56px 6%;}
     .grid{grid-template-columns:repeat(2,1fr);gap:16px;}
@@ -127,8 +123,8 @@
 </style>
 </head>
 <body>
-<div class="label">案F: STORIE D'ITALIA 参考（レスポンシブ対応・日英2言語版）</div>
-<div class="ref">先方確定案 — 日本語版 ｜ 英語版は <a href="f-en.html">f-en.html</a></div>
+<div class="label">Concept F: STORIE D'ITALIA-inspired (responsive, English version)</div>
+<div class="ref">Client-approved direction — English version | Japanese: <a href="f.html">f.html</a></div>
 
 <header>
   <a class="logo" href="#">
@@ -140,13 +136,13 @@
   </a>
 
   <input type="checkbox" id="nav-toggle" class="nav-toggle">
-  <label for="nav-toggle" class="nav-toggle-label" aria-label="メニュー"><span></span></label>
+  <label for="nav-toggle" class="nav-toggle-label" aria-label="Menu"><span></span></label>
 
   <nav>
-    <a href="#">ホーム</a><a href="#">会社紹介</a><a href="#">活動</a><a href="#">ブログ</a><a href="#">募集中</a><a href="#">お問い合わせ</a>
-    <div class="lang-mobile"><a class="active" href="f.html">JP</a> / <a href="f-en.html">EN</a></div>
+    <a href="#">Home</a><a href="#">Business</a><a href="#">Company</a><a href="#">Blog</a><a href="#">Wanted</a><a href="#">Contact</a>
+    <div class="lang-mobile"><a href="f.html">JP</a> / <a class="active" href="f-en.html">EN</a></div>
   </nav>
-  <div class="lang header-desktop-lang"><a class="active" href="f.html">JP</a> / <a href="f-en.html">EN</a></div>
+  <div class="lang header-desktop-lang"><a href="f.html">JP</a> / <a class="active" href="f-en.html">EN</a></div>
 </header>
 
 <div class="hero">
@@ -154,9 +150,9 @@
   <div class="hero-inner">
     <div class="hero-text">
       <div class="eyebrow">Italian Trade Mart</div>
-      <h1>イタリアの恵みと手仕事を、<br>丁寧に日本へ。</h1>
-      <p>革製品、ワイン、食品まで。イタリア各地の作り手と直接つながり、確かな品質のものだけを厳選して直輸入・卸販売しています。</p>
-      <a class="btn" href="#">取扱品目を見る</a>
+      <h1>Italy's craft and harvest,<br>delivered with care.</h1>
+      <p>From leather goods to wine and fine foods — we import and wholesale carefully selected products, sourced directly from trusted Italian makers.</p>
+      <a class="btn" href="#">View Our Products</a>
     </div>
     <div class="hero-photo"></div>
   </div>
@@ -164,7 +160,7 @@
 
 <section>
   <h2 class="section-title center">Signature Brands</h2>
-  <div class="section-sub" style="text-align:center;">当社取り扱いブランド一覧</div>
+  <div class="section-sub" style="text-align:center;">Brands we represent</div>
   <div class="grid">
     <div class="card"><div class="ph"></div><div class="meta"><div class="n">Pineider</div></div></div>
     <div class="card"><div class="ph"></div><div class="meta"><div class="n">Pratesi</div></div></div>
@@ -177,18 +173,18 @@
   <div class="ph"></div>
   <div>
     <div class="eyebrow">Wine &amp; Gastronomy</div>
-    <h3>イタリアワイン・食品も、<br>専門の目利きで。</h3>
-    <p>各地のワイナリーや生産者と直接取引し、味わいと物語のあるワイン・食品をセレクト。飲食店様・小売店様の仕入れに、確かな品質をお届けします。</p>
+    <h3>Italian wine and food,<br>chosen by experts.</h3>
+    <p>We work directly with wineries and producers across Italy, selecting wine and food with real character and story — quality you can trust for your restaurant or store.</p>
   </div>
 </div>
 
 <section>
   <h2 class="section-title center">Blog / Journal</h2>
-  <div class="section-sub" style="text-align:center;">産地からのレポートや商品の裏話をお届け</div>
+  <div class="section-sub" style="text-align:center;">Stories from the source, and behind-the-scenes updates</div>
   <div class="blog-grid">
-    <div class="blog-card"><div class="ph"></div><div class="date">2026.09.01</div><div class="t">秋冬コレクション入荷のお知らせ</div></div>
-    <div class="blog-card"><div class="ph"></div><div class="date">2026.08.20</div><div class="t">イタリア出張レポート</div></div>
-    <div class="blog-card"><div class="ph"></div><div class="date">2026.08.05</div><div class="t">代理店様の声</div></div>
+    <div class="blog-card"><div class="ph"></div><div class="date">Sep 1, 2026</div><div class="t">New Arrivals: Autumn/Winter Collection</div></div>
+    <div class="blog-card"><div class="ph"></div><div class="date">Aug 20, 2026</div><div class="t">Report from Our Italy Trip</div></div>
+    <div class="blog-card"><div class="ph"></div><div class="date">Aug 5, 2026</div><div class="t">Voices from Our Partners</div></div>
   </div>
 </section>
 
