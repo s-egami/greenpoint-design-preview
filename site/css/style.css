@@ -47,10 +47,7 @@ nav a.current{font-weight:700;border-bottom:2px solid var(--green);padding-botto
 .hero-text h1{font-size:38px;font-weight:500;line-height:1.6;margin-bottom:24px;}
 .hero-text p{font-size:14px;color:var(--sub);line-height:1.9;max-width:440px;margin-bottom:32px;overflow-wrap:break-word;}
 .btn{display:inline-block;background:var(--ink);color:#fff;padding:15px 34px;font-size:13px;letter-spacing:.05em;text-decoration:none;border:none;cursor:pointer;font-family:inherit;}
-.hero-photo{aspect-ratio:4/5;background:
-    radial-gradient(circle at 30% 30%, #9db77e 0%, #5f7a45 40%, #33461f 100%);
-  box-shadow:24px 24px 0 -8px var(--sage-deep);
-}
+.hero-photo{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;box-shadow:24px 24px 0 -8px var(--sage-deep);}
 
 .eyebrow{font-family:'Cormorant Garamond',serif;font-style:italic;color:var(--gold);font-size:15px;letter-spacing:.1em;}
 
