@@ -76,6 +76,7 @@ h3.sub-title{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22
 .card:nth-child(4n+4) .ph{background:linear-gradient(150deg,#a9b78e,#4a5c34);}
 .card .meta{padding:16px 18px 20px;}
 .card .meta .n{font-family:'Cormorant Garamond',serif;font-size:18px;}
+.card .meta p{font-size:12px;color:var(--sub);margin-top:6px;line-height:1.7;}
 
 .wine-band{background:var(--sage);padding:90px 5%;display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center;}
 .wine-band > *{min-width:0;}
