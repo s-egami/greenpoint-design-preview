@@ -69,11 +69,7 @@ h3.sub-title{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22
 
 .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;}
 .card{background:#fff;border-radius:4px;overflow:hidden;box-shadow:0 10px 24px rgba(44,53,36,.08);}
-.card .ph{aspect-ratio:1/1;}
-.card:nth-child(4n+1) .ph{background:linear-gradient(150deg,#8fa37e,#33461f);}
-.card:nth-child(4n+2) .ph{background:linear-gradient(150deg,#c9a24b,#5c4522);}
-.card:nth-child(4n+3) .ph{background:linear-gradient(150deg,#6b7f52,#26301a);}
-.card:nth-child(4n+4) .ph{background:linear-gradient(150deg,#a9b78e,#4a5c34);}
+.card img.ph{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;}
 .card .meta{padding:16px 18px 20px;}
 .card .meta .n{font-family:'Cormorant Garamond',serif;font-size:18px;}
 .card .meta p{font-size:12px;color:var(--sub);margin-top:6px;line-height:1.7;}
