@@ -8,3 +8,4 @@
 - `leather-fashion.jpg` — "Faire Leather Briefcase" (CC BY-SA 4.0) via Wikimedia Commons
 - `lifestyle-interior.jpg` — "Decorative arrangement of tulips in clear vase..." by Shixart1985 (CC BY 2.0) via Wikimedia Commons
 - `hero-port.jpg` — "Crepuscular rays at Pasir Panjang Container Terminal" by Icepinner (CC BY 4.0) via Wikimedia Commons
+- `wine-band.jpg` — "Vineyards in Tuscany quality image" (CC BY-SA 2.0) via Wikimedia Commons

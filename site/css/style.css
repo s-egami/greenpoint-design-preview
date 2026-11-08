@@ -73,7 +73,7 @@ h3.sub-title{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22
 
 .wine-band{background:var(--sage);padding:90px 5%;display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center;}
 .wine-band > *{min-width:0;}
-.wine-band .ph{aspect-ratio:16/11;background:linear-gradient(150deg,#5c4522,#2b1f11);}
+.wine-band img.ph{display:block;width:100%;aspect-ratio:16/11;object-fit:cover;}
 .wine-band .eyebrow{font-family:'Cormorant Garamond',serif;font-style:italic;color:var(--gold);font-size:15px;margin-bottom:14px;}
 .wine-band h3{font-size:26px;font-weight:500;line-height:1.6;margin-bottom:18px;}
 .wine-band p{font-size:14px;color:#445039;line-height:1.9;}
